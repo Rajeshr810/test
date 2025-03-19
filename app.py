@@ -4,7 +4,7 @@ import datetime
 import subprocess
 
 def htop_view(request):
-    name = "Rajesh R"
+    name = "Your Full Name"
     username = os.getlogin()
     ist_time = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     top_output = subprocess.getoutput('top -b -n 1')
